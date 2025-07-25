@@ -4,8 +4,10 @@ import TextForm from "./component/TextForm";
 function App() {
   return (
     <>
-      <Navbar title = "TextUtils" AboutText = "About TextUtils"/>
-      <TextForm/>
+      <Navbar title="TextUtils" AboutText="About TextUtils" />
+      <div className="container my-3">
+        <TextForm heading = "Enter the Text to analyze" />
+      </div>
     </>
   );
 }
