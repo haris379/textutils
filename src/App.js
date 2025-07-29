@@ -1,35 +1,19 @@
 import "./App.css";
-import AppCounter from "./component/AppCounter";
+import Navbar from "./component/Navbar";
+import TextForm from "./component/TextForm";
+// import AppCounter from "./component/AppCounter";
+// import About from "./component/About";
 
 function App() {
-  return <>
-  <AppCounter />
-  </>;
+  return (
+    <>
+      {/* <Navbar title="TextUtils" AboutText="About TextUtils" /> */}
+      <div className="container my-3">
+        <TextForm heading="Enter the Text to analyze" />
+        {/* <About/> */}
+      </div>
+    </>
+  );
 }
 
 export default App;
-
-//   const handleClick = () => {
-//     alert("Button Clicked!");
-//   };
-
-{
-  /* <Navbar title="TextUtils" AboutText="About TextUtils" />
-      <div className="container my-3">
-        <TextForm heading="Enter the Text to analyze" />
-      </div> */
-}
-{
-  /* <GreetingForm nameOfPerson="Ahmad" />
-      <Quote
-        quoteOfTheDay="Be yourself; everyone is already taken"
-        authorOfQuote="Oscar Wilds"
-      />
-      <MyButton label="Click Me" onClick={handleClick} /> */
-}
-
-// import GreetingForm from "./component/GreetingForm";
-// import MyButton from "./component/MyButton";
-// import Quote from "./component/Quote";
-// import Navbar from "./component/Navbar";
-// import TextForm from "./component/TextForm";
