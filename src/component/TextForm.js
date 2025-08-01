@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 export default function TextForm(props) {
 
+  
   const handleUpClick = () => {
     let newText = text.toUpperCase();
     setText(newText);
@@ -57,7 +58,7 @@ export default function TextForm(props) {
           color :  props.mode === 'dark'? 'white': '#042743' }} 
            id="myBox"  rows="8"></textarea>
         </div>
-        <button className="btn btn-primary mx-2 my-2" onClick={handleUpClick}>Convert to Uppercase</button>
+        <button className="btn btn-primary mx-2 my-2"  onClick={handleUpClick}>Convert to Uppercase</button>
         <button className="btn btn-primary mx-2 my-2" onClick={handlelowClick}>Convert to Lowercase</button>
         <button className="btn btn-primary mx-2 my-2" onClick={clearClick}>Clear Text{" "}</button>
         <button className="btn btn-primary mx-2 my-2" onClick={copyText}>Copy Text</button>
