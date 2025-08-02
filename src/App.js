@@ -1,9 +1,9 @@
 import "./App.css";
-import About from "./component/About";
 import Navbar from "./component/Navbar";
 import TextForm from "./component/TextForm";
 import Alert from "./Alert";
 import { useState } from "react";
+// import About from "./component/About";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
